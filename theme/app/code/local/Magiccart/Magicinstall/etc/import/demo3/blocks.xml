@@ -1,0 +1,268 @@
+<?xml version="1.0"?>
+<root>
+  <blocks>
+    <cms_block>
+      <title><![CDATA[Footer Links]]></title>
+      <identifier><![CDATA[footer_links]]></identifier>
+      <content><![CDATA[
+<ul>
+    <li><a href="{{store direct_url="about-magento-demo-store"}}">About Us</a></li>
+    <li><a href="{{store direct_url="customer-service"}}">Customer Service</a></li>
+<li class="last privacy"><a href="{{store direct_url="privacy-policy-cookie-restriction-mode"}}">Privacy Policy</a></li>
+</ul>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[Footer Links Company]]></title>
+      <identifier><![CDATA[footer_links_company]]></identifier>
+      <content><![CDATA[
+<div class="links">
+    <div class="block-title">
+        <strong><span>Company</span></strong>
+    </div>
+    <ul>
+        <li><a href="{{store url=""}}about-magento-demo-store/">About Us</a></li>
+        <li><a href="{{store url=""}}contacts/">Contact Us</a></li>
+        <li><a href="{{store url=""}}customer-service/">Customer Service</a></li>
+        <li><a href="{{store url=""}}privacy-policy-cookie-restriction-mode/">Privacy Policy</a></li>
+    </ul>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[featured-menu]]></title>
+      <identifier><![CDATA[featured-menu]]></identifier>
+      <content><![CDATA[<div class="content-mega">
+	<div class="content-mega-custom">
+	    <div class="container-full">
+			<ul class="mage-column cat-mega">
+				<li class="children level1">
+				   <a href="#"><span>Products Types</span></a>
+				   <ul class="level1">
+                                                <li class="level2"><a href="vestibulum-rhoncus.html"><span>Simple Product</span></a></li>
+						<li class="level2"><a href="grouped-product.html"><span>Grouped Product</span></a></li>
+						<li class="level2"><a href="configurable-product.html"><span>Configurable Product</span></a></li>
+                                                <li class="level2"><a href="shop.html"><span>Best Seller Products</span></a></li>
+						<li class="level2"><a href="shop/featured-items/outerwear.html"><span>On Sale Products</span></a></li>
+				  </ul>
+				</li>
+				<li class="children level1 images last">
+				   <img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/menu-feature.jpg"}}" alt="" />
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[pages-menu]]></title>
+      <identifier><![CDATA[pages-menu]]></identifier>
+      <content><![CDATA[	<div class="content-mega-custom content-mega-pages">
+		<ul class="mage-column cat-mega">
+		    <li class="level1"><a href="#">My Account</a></li>
+			<li class="level1"><a href="{{store url=""}}about-magento-demo-store/">About Us</a></li>
+			<li class="level1"><a href="#">Checkout</a></li>
+			<li class="level1"><a href="{{store url=""}}no-route/">404(error) page</a></li>
+			<li class="level1"><a href="#">Wishlist</a></li>
+			<li class="level1"><a href="#">Compare Page</a></li>
+			<li class="level1"><a href="#">Typography</a></li>
+			<li class="level1"><a href="{{store direct_url="faq"}}">FAQ’s Page</a></li>
+			<li class="level1"><a href="{{store direct_url="enable-cookies"}}">Enable Cookies</a></li>
+		</ul>
+	</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[newletter_text]]></title>
+      <identifier><![CDATA[newletter_text]]></identifier>
+      <content><![CDATA[<div class="form-subscribe-header block-title">
+	<label>Sign up for newsletter</label>
+        <img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/icon-line-pop.png"}}" alt="" />
+</div>
+<h2 class="promotions promotions1">Subscribe to receive updates on new arrivals, special offers</h2>
+<h2 class="promotions promotions2">and other discount info.</h2>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[Banner Left Category]]></title>
+      <identifier><![CDATA[left-module-bottom]]></identifier>
+      <content><![CDATA[<div class="left-image"><img src="{{media url="wysiwyg/alothemes/static/banner-left-category.jpg"}}" alt="" /></div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[demo3]]></title>
+      <identifier><![CDATA[slide]]></identifier>
+      <content><![CDATA[<div>{{widget type="magicslider/widget_slide" identifier="demo3" template="magiccart/magicslider/magicslider.phtml"}}</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[cms-static-content-bottom]]></title>
+      <identifier><![CDATA[cms-static-content-bottom]]></identifier>
+      <content><![CDATA[<div id="cms-static-content-bottom" class="cms-static-content-bottom">
+	<div class="content-banner content-collection bg-parallax position-3 clearfix">
+		<div class="container">
+		   <div class="row">
+				<div class="col-lg-12">
+				    <div class="banner-inner">
+						<h2>Teenagers Fashion Young Trending</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="content-banner content-collection2 position-4 clearfix">
+		<div class="container">
+		   <div class="row">
+				<div class="col-lg-12">
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 column-left">
+						<div class="banner-inner">
+						    <div class="banner-innercontent">
+								<a href="#"><img class="u-photo img-responsive" alt="banner" src="{{media url="wysiwyg/alothemes/static/demo3/banner_1.jpg"}}" /></a>
+								<div class="text-content">						
+									<h3 class="p-name">Shoes</h3>			
+								</div>
+							</div>
+							<div class="banner-innercontent">
+								<a href="#"><img class="u-photo img-responsive" alt="banner" src="{{media url="wysiwyg/alothemes/static/demo3/banner_2.jpg"}}" /></a>
+								<div class="text-content">						
+									<h3 class="p-name">Men's</h3>			
+								</div>
+							</div>
+					    </div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 column-center">
+						<div class="banner-inner">
+							<a href="#"><img class="u-photo img-responsive" alt="banner" src="{{media url="wysiwyg/alothemes/static/demo3/banner_3.jpg"}}" /></a>
+							<div class="text-content">
+                                <h2>Long Blazer</h2>							
+								<h3 class="p-name">Sale off 50%</h3>			
+							</div>
+					    </div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 column-right">
+						<div class="banner-inner">
+						    <div class="banner-innercontent">
+								<a href="#"><img class="u-photo img-responsive" alt="banner" src="{{media url="wysiwyg/alothemes/static/demo3/banner_4.jpg"}}" /></a>
+								<div class="text-content">						
+									<h3 class="p-name">Women's</h3>			
+								</div>
+							</div>
+							<div class="banner-innercontent">
+								<a href="#"><img class="u-photo img-responsive" alt="banner" src="{{media url="wysiwyg/alothemes/static/demo3/banner_5.jpg"}}" /></a>
+								<div class="text-content">						
+									<h3 class="p-name">Accessories</h3>			
+								</div>
+							</div>
+					    </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="product-content-two position-5 clearfix">
+		<div class="container">
+		   <div class="row">
+				<div class="col-lg-12">
+				    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 custom-left">
+						{{widget type="magicproduct/widget_magicproduct" identifier="latest-items" template="magiccart/magicproduct/magicproduct_custom.phtml"}}
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 custom-center">
+						{{widget type="magicproduct/widget_magicproduct" identifier="featured" template="magiccart/magicproduct/magicproduct_custom.phtml"}}
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 custom-right">
+						{{widget type="magicproduct/widget_magicproduct" identifier="onsale" template="magiccart/magicproduct/magicproduct_custom.phtml"}}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="content-brands bg-parallax position-6 clearfix">
+		<div class="container">
+		   <div class="row">
+				<div class="col-lg-12">
+					{{widget type="shopbrand/widget_brand" template="magiccart/shopbrand/brand.phtml"}}
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="content-testimonials position-7 clearfix">
+		<div class="container">{{widget type="testimonial/widget_slide" template="magiccart/testimonial/slide.phtml"}}</div>
+	</div>
+	<div class="contents-blog position-8 clearfix">
+		<div class="container">
+		   <div class="row">
+				<div class="col-lg-12">
+					{{widget type="blog/slide" title="Latest Posts Blog" categories="1,2,3,4,5,6" blocks_count="5" slide="1" controls="1" speed="800" pause="1" row="1" portrait="1" landscape="2" tablet="2" desktop="2" visibleItems="2" marginColumn="30" widthImages="570" heightImages="570"}}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[footer-links]]></title>
+      <identifier><![CDATA[footer-links]]></identifier>
+      <content><![CDATA[<div class="footer-links">
+	<ul class="links">
+		<li class="fisrt"><a href="{{store url=""}}contacts/">Contact Us</a></li>
+		<li><a href="{{store direct_url="catalogsearch/advanced"}}">Advanced Search</a></li>
+		<li><a href="{{store direct_url="catalogsearch/term/popular/"}}">Search Terms</a></li>
+		<li><a href="{{store direct_url="sales/guest/form"}}">Orders and Returns</a></li>
+		<li class="last"><a href="{{store direct_url="faq"}}"><span>FAQ</span></a></li>
+	</ul>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[social-link]]></title>
+      <identifier><![CDATA[social-link]]></identifier>
+      <content><![CDATA[<div class="social-link clearfix">
+	<a href="#" title="Facebook"><i class="fa fa-facebook"><span class="hidden">hidden</span></i></a>
+	<a href="#" title="Twitter"><i class="fa fa-twitter"><span class="hidden">hidden</span></i></a>
+	<a href="#" title="Dribbble"><i class="fa fa-dribbble"><span class="hidden">hidden</span></i></a>
+	<a href="#" title="Vimeo"><i class="fa fa-vimeo-square"><span class="hidden">hidden</span></i></a>
+	<a href="#" title="Pinterest"><i class="fa fa-pinterest-p"><span class="hidden">hidden</span></i></a>  
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[block_footer]]></title>
+      <identifier><![CDATA[block_footer]]></identifier>
+      <content><![CDATA[<div id="block_footer" class="block_footer block-footer-bottom">
+	<div class="block-content block-content-statick">
+		<img class="logo-footer img-responsive" alt="logo Footer" src="{{media url="wysiwyg/alothemes/static/demo3/logo-footer.png"}}" />
+		<p>987 Sounthway St , JMC Building, California City, USA</p>
+		<p>+00 1 2345 999 / Info@authentic.com</p>
+		{{block type="newsletter/subscribe" template="newsletter/subscribe.phtml"}}
+	</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[block_map_contacts]]></title>
+      <identifier><![CDATA[block_map_contacts]]></identifier>
+      <content><![CDATA[<div class="col-xs-12 col-sm-12 col-md-12">
+<div class="conttact-top clearfix">
+<div><iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.8277911385558!2d-0.13108129999999998!3d51.51637529999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b2d183f5ea3%3A0x8e1c5b00f1b16579!2zMTIgT3hmb3JkIFN0LCBTb2hvLCBMb25kb24gVzFELCBWxrDGoW5nIFF14buRYyBBbmg!5e0!3m2!1svi!2s!4v1434261501432" height="350" width="600"></iframe></div>
+<div class="map-conttact">
+    <h3 class="page-subheading">Information</h3>
+<div class="Information-text">
+	<p>Proin accumsan porta miac maximus. In dapibus mollis risus, nec mattis sem gravida at. Aliquam erat volutpat. Donec pellentes tristque. Vivamus semper non semor
+felis leo sodales tincidunt at ut lectus, aliquam malesuada urna vel sagittis ullamcorper. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+dolore magna aliquyam erat, sed diam voluptua. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet Nulla facilisi. Fusce luctus purus
+semper nulla tempus. Etiam ac hendrerit lacus, nec dapibus enim. </p>
+	<ul class="store_info">
+		<li class="add"><i class="fa fa-home"></i>No. 987 Sounthway St , JMC Building, California City,USA</li>
+		<li><i class="fa fa-phone"></i><span class="name">Phone:</span><span>+ 021.343.7575</span></li>
+		<li><i class="fa fa-envelope"></i><span class="name">Email:</span> <span><a href="mailto:support@alothemes.com">support@alothemes.com</a></span></li>
+	</ul> 
+</div>
+</div>
+</div>	
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+  </blocks>
+</root>
